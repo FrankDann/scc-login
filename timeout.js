@@ -1,0 +1,1 @@
+setTimeout("location.href = 'index.php'",5000); // milliseconds, so 10 seconds = 10000ms

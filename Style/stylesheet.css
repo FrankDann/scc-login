@@ -1,0 +1,117 @@
+/** Primary Color
+
+Pantone 295 C
+CMYK: 100, 57, 0, 40
+RGB: 22, 70, 121
+HEX: 164679
+
+Secondary Color
+Pantone 872 C
+CMYK: 20, 30, 70, 15
+RGB: 180, 151, 90
+HEX: B49759
+
+Accent Color
+Pantone 207 C
+CMYK: 22, 100, 79, 15
+RGB: 172, 29, 54
+HEX: AC1D36
+
+
+Font Style
+Headlines - Calibri Bold
+Sub-headlines - Helvetica Medium Condensed
+ */
+h1, h3 {
+    font-family: "Calibri Medium Condensed";
+    text-align: center;
+    text-shadow: 2px 2px 2px #B49759;
+}
+body {
+    background-color: rgb(22, 70, 121);
+}
+.padding{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+p, form{
+    font-family: "HelveticaNeue-CondensedBold";
+    text-align: center;
+}
+
+/** white box for form to sit in*/
+.wContainer{
+    background-color: white;
+    padding-top: auto;
+    padding-bottom: 30px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 30px;
+}
+
+/** Used to adjust image size and give shadow**/
+.ascIMG {
+    width: auto;
+    height: 105px;
+    max-width: 60%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.sccIMG{
+
+    width: auto;
+    height: 100px;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+.signinIMG{
+    width: 30%;
+    height: auto;
+    max-width: 80%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/** Used to space logo header in container */
+
+
+table, th, td, tr {
+    border: 0px solid black;
+    border-collapse: collapse;
+
+}
+th, td {
+    padding: 1px;
+}
+td{
+    width: 50%;
+}
+th, tr {
+    text-align: center;
+}
+
+/* Used to make changes to the Select box*/
+input[type=name], select {
+  width: auto;
+  padding: 5px 15px;
+  border-radius: 30px;
+  background-color: #ffefd8;
+}
+
+
+#error {
+    font-size: 3ex;
+    color: red;
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-family: "HelveticaNeue-CondensedBold";
+    text-align: center;
+}
+#success {
+    font-size: 3ex;
+    color: rgb(180, 151, 90);
+    text-shadow: 2px 2px 2px black;
+    font-weight: bold;
+    font-family: "HelveticaNeue-CondensedBold";
+    text-align: center;
+
+}
